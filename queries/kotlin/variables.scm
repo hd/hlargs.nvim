@@ -1,3 +1,6 @@
-(_
-  (simple_identifier) @var .)
+((_)
+  [
+   (simple_identifier) "=" (simple_identifer) @var
+   (simple_identifier) @var
+])
 (interpolated_identifier) @var
