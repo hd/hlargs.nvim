@@ -1,2 +1,3 @@
-(simple_identifier) @var
+(_
+  (simple_identifier) @var .)
 (interpolated_identifier) @var

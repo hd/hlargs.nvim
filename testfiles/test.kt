@@ -10,6 +10,10 @@ fun printSumIfBothNonNullAndIntStrIsValid(intOne: Int?, intStrTwo: String?) {
     }
 }
 
+fun namedArg(arg1: Int, arg2: Int): Int {
+    return arg(arg1 = arg1, arg2 = arg2)
+}
+
 class Person(val pets: MutableList<Pet> = mutableListOf()) {
     fun addPet(pet: Pet) = pets.add(pet)
 }
